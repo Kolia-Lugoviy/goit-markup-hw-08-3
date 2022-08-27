@@ -1,0 +1,40 @@
+.customers-social-list-icon{
+    fill: #AFB1B8;
+
+    transition: fill var(--transition-duration-and-func);
+
+.customers-social-list-link:hover &,
+.customers-social-list-link:focus &{
+fill: #2196F3;
+}
+}
+
+
+
+
+
+.customers-social-list{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.customers-social-list-item{}
+
+
+
+.customers-social-list-link{
+    @extend %align;
+    width: 170px;
+    height: 92px;
+    background-color: #FFFFFF;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition: border var(--transition-duration-and-func);
+
+    &:hover ,
+    &:focus {
+        border: 1px solid #2196F3 ;
+    }
+
+}

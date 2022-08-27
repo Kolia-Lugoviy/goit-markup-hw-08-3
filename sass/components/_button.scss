@@ -1,0 +1,21 @@
+.button {
+
+
+    /* № */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: color var(--transition-duration-and-func);
+    }
+    
+    .button-focus:hover, 
+    .button-hover:focus {
+        color: #000000;
+    
+    }
+    

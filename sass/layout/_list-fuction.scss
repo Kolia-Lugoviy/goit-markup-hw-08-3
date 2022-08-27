@@ -1,0 +1,68 @@
+.list{
+    @include font ($fs: 14px, $fw: 400, $lh: 24px);
+    letter-spacing: 0.03em;
+    color: #757575;
+    display: flex;
+}
+
+.list_title-li{
+    width: 270px;
+
+    &:not(:nth-child(4n)){
+        margin-right: 30px;
+    }
+}
+
+
+
+.list-a-image{
+    @extend %align;
+    width: 270px;
+    height: 120px;
+    background-color: #FFFFFF;
+
+&:hover .list-a-image-icon,
+&:focus .list-a-image-icon{
+fill: #2196F3;
+}
+}
+
+.list-a-image-icon{
+    fill: #212121;
+    transition: fill var(--transition-duration-and-func);
+
+
+}
+
+.list-a-image{
+background: #F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
+transition: fill var(--transition-duration-and-func);
+}
+
+
+.list-title{
+    @include font ($fs: 14px, $fw: 700, $lh: 16px);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.list-title-p{
+margin-top: 10px;
+@include font ($fs: 14px, $fw: 400, $lh: 24px);
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+.section-img{
+    padding-bottom: 94px;
+}
+
+.img-work{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+}
