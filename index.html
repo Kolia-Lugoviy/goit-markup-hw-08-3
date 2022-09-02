@@ -35,7 +35,7 @@
             </ul>
         </nav >
 
-        <button type="button" class="mobile-menu-open">
+        <button type="button" class="mobile-menu-open" data-modal-open>
             
             <svg class="mobile-menu-open__icon" width="40" height="40">
                 <use href="./images/sprite.svg#burger-icon"></use>
@@ -44,7 +44,7 @@
 
         <ul class="contact-list">
             <li class="contact-list__item">
-                <a href="mailto:info@devstudio.com" class="contact-list__link-mail ">
+                <a href="mailto:info@devstudio.com" class="contact-list__link-mail">
                 <svg class="contact-list__icon" width="16" height="10">
                     <use href="./images/sprite.svg#icon-envelope"></use>
                 </svg>
@@ -56,9 +56,9 @@
                 +38 096 111 11 11</a></li>
         </ul>
         </div>
-        <div class="mobile-menu">
+        <div class="mobile-menu" data-modal>
             <div class="container mobile-menu__container">
-        <button class="mobile-menu__close-btn">
+        <button class="mobile-menu__close-btn" data-modal-close>
             <svg class="mobile-menu__close-icon" width="40" height="40">
                 <use href="./images/sprite.svg#icon-close-modal"> </use>
             </svg>
@@ -575,6 +575,7 @@
 
 
     <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
 
