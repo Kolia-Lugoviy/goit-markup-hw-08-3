@@ -343,13 +343,11 @@ button {
   .header-all__header-group {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 96px;
   }
   .nav {
     display: flex;
     align-items: center;
-    gap: 88px;
+    margin-right: 96px;
   }
   .contact-list {
     display: flex;
@@ -360,7 +358,6 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -370,6 +367,7 @@ button {
     letter-spacing: 0.02em;
   }
   .nav__name {
+    margin-right: 88px;
     font-family: "Raleway", sans-serif;
     font-size: 26px;
     font-weight: 700;
@@ -435,7 +433,7 @@ button {
   }
   .contact-list__icon {
     fill: currentColor;
-    margin-right: 10px;
+    margin-right: 8px;
   }
   .contact-list__link-mail {
     font-weight: 500;
@@ -450,6 +448,11 @@ button {
   }
   .contact-list__link-mail:hover, .contact-list__link-mail:focus {
     color: #2196F3;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact-list {
+    gap: 10px;
   }
 }
 .section-title {

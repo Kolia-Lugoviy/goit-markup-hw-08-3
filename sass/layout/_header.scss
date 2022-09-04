@@ -28,7 +28,7 @@
     justify-content: space-between;
 }
 
-// 768-1199px
+
 @media screen and (min-width: 768px) {
     .mobile-menu-open {
         display: none;
@@ -42,8 +42,6 @@
 .header-all__header-group{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 96px;
 }
 
 
@@ -51,8 +49,7 @@
 .nav{
     display: flex;
     align-items: center;
-    gap: 88px;
-
+    margin-right: 96px;
 }
 
 .contact-list{
@@ -66,7 +63,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 50px;
 
     font-weight: 500;
     font-size: 14px;
@@ -78,6 +74,7 @@
 
 
 .nav__name{
+    margin-right: 88px;
     font-family: 'Raleway', sans-serif;
     @include font ($fs: 26px, $lh: 31px);
     font-weight: 700;
@@ -150,6 +147,7 @@
     letter-spacing: 0.02em;
     color: #757575;
     transition: color var(--transition-duration-and-func);
+    
     &:hover, 
     &:focus {
         color: #2196F3;
@@ -159,7 +157,7 @@
 
 .contact-list__icon{
     fill: currentColor;
-    margin-right: 10px;
+    margin-right: 8px;
 }
 
 .contact-list__link-mail{
@@ -176,8 +174,13 @@
         color: #2196F3;
     }
 }
-
 }
+
+@media screen and (min-width: 768px) {
+.contact-list {
+        gap: 10px;
+    }
+    }
 
 // header{
 //     list-style-type: none;}
