@@ -347,7 +347,7 @@ button {
   .nav {
     display: flex;
     align-items: center;
-    margin-right: 96px;
+    margin-right: 88px;
   }
   .contact-list {
     display: flex;
@@ -414,9 +414,6 @@ button {
   .nav__item:not(:last-child) {
     margin-right: 50px;
   }
-  .contact-list__item:not(:last-child) {
-    margin-right: 50px;
-  }
   .contact-list__link-tel {
     font-weight: 500;
     font-size: 14px;
@@ -450,9 +447,17 @@ button {
     color: #2196F3;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
+  .header-all {
+    position: absolute;
+    width: 100%;
+  }
   .contact-list {
-    gap: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  .contact-list__item:not(:last-child) {
+    margin-right: 30px;
   }
 }
 .section-title {
