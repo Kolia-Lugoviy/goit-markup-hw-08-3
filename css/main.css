@@ -193,6 +193,43 @@ button {
   transition: fill var(--transition-duration-and-func);
 }
 
+.modal-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.modal-list-st {
+  color: #2196F3;
+}
+
+.modal-list-tel {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
+.modal-list-email {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.modal-list-social {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
 .backdrop-title {
   Font-size: 20px;
   line-height: 1.2;
@@ -415,6 +452,8 @@ button {
     margin-right: 50px;
   }
   .contact-list__link-tel {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -433,6 +472,8 @@ button {
     margin-right: 8px;
   }
   .contact-list__link-mail {
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;

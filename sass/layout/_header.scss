@@ -73,6 +73,8 @@
 
 
 
+
+
 .nav__name{
     margin-right: 88px;
     font-family: 'Raleway', sans-serif;
@@ -138,6 +140,9 @@
 
 
 .contact-list__link-tel{
+    display: flex;
+    align-items: center;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -159,6 +164,9 @@
 }
 
 .contact-list__link-mail{
+    display: flex;
+    align-items: center;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.2;
@@ -185,6 +193,8 @@ width: 100%;
     display: flex;
     flex-direction: row;
     }
+
+
 
 .contact-list__item:not(:last-child) {
     margin-right: 30px;
