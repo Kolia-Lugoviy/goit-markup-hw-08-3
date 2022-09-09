@@ -45,6 +45,12 @@
 
 
 .modal-list{
+    margin-bottom: 202px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -61,32 +67,43 @@
     color: #2196F3;
 }
 
-.modal-list-tel{
+.modal-tel-email{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 
+.modal-list-tel{  
 
-        font-weight: 500;
-        font-size: 34px;
-        line-height: 40px;
-        letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
 
-        color: #2196F3;
+    color: #2196F3;
 }
 
 .modal-list-email{
-        font-weight: 500;
-        font-size: 24px;
-        line-height: 28px;
-        letter-spacing: 0.02em;
     
-        color: #757575;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+
+    color: #757575;
 }
 
 .modal-list-social{
+    margin-top: 64px;
+
+    display: flex;
+    gap: 20px;
+
     font-weight: 500;
-        font-size: 18px;
-        line-height: 22px;
-       
-        letter-spacing: 0.02em;
+    font-size: 18px;
+    line-height: 1.1;
     
-        color: #2196F3;
+    letter-spacing: 0.02em;
+
+    color: #2196F3;
 }
