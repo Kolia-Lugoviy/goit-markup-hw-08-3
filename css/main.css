@@ -503,7 +503,6 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .header-all {
-    position: absolute;
     width: 100%;
   }
   .contact-list {
@@ -550,6 +549,27 @@ button {
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 767px) {
+  .section-img {
+    display: none;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .section-img {
+    display: none;
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+}
 .list {
   font-size: 14px;
   font-weight: 400;

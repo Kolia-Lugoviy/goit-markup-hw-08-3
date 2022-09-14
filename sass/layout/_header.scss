@@ -1,5 +1,6 @@
 // 0-767px
 @media screen and (max-width: 767px){
+
     .nav__list {
             display: none;
         }
@@ -185,7 +186,6 @@
 // 1200
 @media screen and (min-width: 1200px) {
 .header-all{
-position: absolute;
 width: 100%;
 }
 
