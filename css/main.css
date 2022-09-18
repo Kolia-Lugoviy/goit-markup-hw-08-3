@@ -941,36 +941,44 @@ button {
 
 @media screen and (max-width: 767px) {
   .portfolio-list {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
     display: flex;
     flex-wrap: wrap;
-    column-gap: 15px;
-    row-gap: 8px;
+    column-gap: 8px;
+    row-gap: 15px;
     justify-content: flex-start;
+    margin-bottom: 50px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .portfolio-element {
+  .portfolio-list {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
     display: flex;
     flex-wrap: wrap;
+    column-gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
   }
 }
-.section-porfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (min-width: 1200px) {
+  .portfolio-list {
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+    color: #212121;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
 }
-
-.portfolio-list {
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
-  color: #212121;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 8px;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-
 .list-portfolio-all {
   font-size: 16px;
   line-height: 1.6;
@@ -1002,7 +1010,6 @@ button {
   flex-wrap: wrap;
   column-gap: 30px;
   row-gap: 30px;
-  /* justify-content: space-between; */
 }
 
 .portfolio-team-img-p {
@@ -1033,12 +1040,6 @@ button {
   transform: translate(0, 0);
 }
 
-/* .work-ul-li:not(:nth-child(4n)){
-    margin-right: 30px;
-} */
-/* .work-ul-li{
-    flex-basis: calc((100%-90px/4 ));
-} */
 .portfolio-element-text {
   background: #FFFFFF;
   border: 1px solid #EEEEEE;
@@ -1070,4 +1071,9 @@ button {
 .focus-portfolio:focus {
   color: #ffffff;
   background-color: #2196F3;
+}
+
+.section-porfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }/*# sourceMappingURL=main.css.map */
