@@ -1094,6 +1094,9 @@ button {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
+  .section-porfolio {
+    background-color: tomato;
+  }
   .portfolio-list {
     font-size: 16px;
     line-height: 1.6;
@@ -1104,6 +1107,9 @@ button {
     column-gap: 8px;
     justify-content: center;
     margin-bottom: 50px;
+  }
+  .portfolio-element-li {
+    width: 304px;
   }
   .portfolio-element {
     display: flex;
