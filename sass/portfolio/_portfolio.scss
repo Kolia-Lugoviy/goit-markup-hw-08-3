@@ -133,15 +133,18 @@
     }
 
 
+
+
 }
 
+;
 
 
 // 768-1199px
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-    .section-porfolio {
-        background-color: tomato;
-    }
+    // .section-porfolio {
+    //     background-color: tomato;
+    // }
     
     .portfolio-list {
         font-size: 16px;
@@ -157,7 +160,8 @@
 
     
 .portfolio-element-li{
-    width: 304px;
+    width: 334px;
+    height: 440px;
 }
 
     .portfolio-element {
@@ -168,6 +172,20 @@
         row-gap: 31px;
 
     }
+
+// .portfolio-element-text {
+//     background: #FFFFFF;
+//     border: 1px solid #EEEEEE;
+//     border-top: none;
+//     padding-top: 20px;
+//     padding-bottom: 20px;
+//     ;
+//     padding-left: 24px;
+//     ;
+//     padding-right: 24px;
+//     ;
+// }
+
 
 }
 
